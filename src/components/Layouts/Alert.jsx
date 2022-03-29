@@ -5,7 +5,7 @@ function Alert() {
   const { alert } = useContext(AlertContext);
   return (
     alert !== null && (
-      <div class="alert alert-warning shadow w-max lg:w-2/5 mb-5 font-pop px-10">
+      <div class="alert alert-warning shadow w-max lg:w-2/5 mb-5 font-pop px-6">
         <div>
           <svg
             xmlns="http://www.w3.org/2000/svg"

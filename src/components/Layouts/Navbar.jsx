@@ -11,11 +11,11 @@ function Navbar({ title }) {
         <div className="flex-none mx-2 px-2">
           <FontAwesomeIcon
             icon={faGithubAlt}
-            className="text-4xl align-middle cursor-pointer text-black inline pr-4"
+            className="text-2xl align-middle cursor-pointer text-black inline pr-2"
           />
           <Link
             to="/"
-            className="align-middle cursor-pointer text-xl text-black tracking-tighter font-semibold"
+            className="align-middle cursor-pointer text-xl md:text-2xl xl:text-2xl text-black tracking-tighter font-semibold"
           >
             {title}
           </Link>
@@ -24,14 +24,13 @@ function Navbar({ title }) {
           <div className="flex justify-end">
             <Link
               to="/"
-              className="font-medium text-black-50 mx-1 rounded-md px-2 "
+              className="text-sm xl:text-lg text-black-50 px-1 md:text-xl xl:px-2 "
             >
               Home
             </Link>
             <Link
               to="/about"
-              className="
-             font-medium text-black-50 mx-1 rounded-md px-2 "
+              className="text-sm xl:text-lg text-black-50 px-1 md:text-xl xl:px-2"
             >
               About
             </Link>
@@ -43,7 +42,7 @@ function Navbar({ title }) {
 }
 
 Navbar.defaultProps = {
-  title: "Github search",
+  title: "Github lab",
 };
 
 Navbar.propTypes = {

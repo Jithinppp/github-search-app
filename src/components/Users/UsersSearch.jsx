@@ -26,14 +26,14 @@ function UsersSearch() {
         <form className="form-control" onSubmit={handleSubmit}>
           <div className="relative">
             <input
-              className="w-full input input-bordered input-md black text-lg "
+              className="w-full input input-bordered input-md black text-base "
               placeholder="search github profiles"
               value={text}
               onChange={handleChange}
             />
             <button
               type="submit"
-              className="absolute top-0 right-0 rounded-l-none w-36 btn  btn-md"
+              className="absolute top-0 right-0 rounded-l-none btn  btn-md w-14 md:w-30 xl:w-1/4"
             >
               go
             </button>
