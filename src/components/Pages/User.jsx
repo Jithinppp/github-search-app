@@ -83,9 +83,9 @@ function User() {
                 </a>
               </div>
             </div>
-            <div className="w-full flex flex-wrap rounded-lg shadow bg-base-100 stats font-inter">
+            <div className="w-full flex flex-wrap rounded-lg  bg-base-100 stats font-inter">
               {location && (
-                <div className="stats p-4">
+                <div className="p-4 m-1">
                   <div className="stat-title text-md">
                     <FontAwesomeIcon
                       icon={faMapMarkedAlt}
@@ -96,7 +96,7 @@ function User() {
                 </div>
               )}
               {blog && (
-                <div className="stats p-4">
+                <div className=" p-4 m-1">
                   <div className="stat-title text-md">
                     <FontAwesomeIcon
                       icon={faUser}
@@ -114,7 +114,7 @@ function User() {
                 </div>
               )}
               {twitter_username && (
-                <div className="stats p-4">
+                <div className="p-4 m-1">
                   <div className="stat-title text-md ">
                     <FontAwesomeIcon
                       icon={faTwitter}

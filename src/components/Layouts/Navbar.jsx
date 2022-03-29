@@ -42,7 +42,7 @@ function Navbar({ title }) {
 }
 
 Navbar.defaultProps = {
-  title: "Github lab",
+  title: "Github search",
 };
 
 Navbar.propTypes = {
