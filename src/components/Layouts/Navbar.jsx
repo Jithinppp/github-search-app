@@ -20,7 +20,7 @@ function Navbar({ title }) {
             {title}
           </Link>
         </div>
-        <div className="flex-1 px-2 mx-2 items-center">
+        <div className="flex-1 px-2 mx-2 items-center ">
           <div className="flex justify-end">
             <Link
               to="/"

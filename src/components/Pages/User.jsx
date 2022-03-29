@@ -6,6 +6,7 @@ import Repos from "../Repos/Repos";
 import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { faUser } from "@fortawesome/free-regular-svg-icons";
 import {
+  faAngleLeft,
   faBoxOpen,
   faChartLine,
   faMapMarkedAlt,
@@ -41,8 +42,12 @@ function User() {
     <>
       <div className="w-full mx-auto lg:w-10/12 font-pop">
         <div className="mb-4">
-          <Link to="/" className="btn btn-ghost">
-            go back to search
+          <Link to="/" className="btn btn-ghost align-middle text-normal">
+            <FontAwesomeIcon
+              className="font-extrabold text-xl mr-2"
+              icon={faAngleLeft}
+            />
+            Go back
           </Link>
         </div>
         <div className="grid grid-cols-1 xl:grid-cols-3 lg:grid-cols-3 md:gird-cols-3 mb-8 md:gap-8">
@@ -78,7 +83,7 @@ function User() {
                 </a>
               </div>
             </div>
-            <div className="w-full rounded-lg shadow bg-base-100 stats font-inter">
+            <div className="w-full flex flex-wrap rounded-lg shadow bg-base-100 stats font-inter">
               {location && (
                 <div className="stats p-4">
                   <div className="stat-title text-md">
